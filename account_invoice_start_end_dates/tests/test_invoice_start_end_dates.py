@@ -5,10 +5,10 @@
 
 import time
 from odoo.tools import float_compare
-from odoo.tests.common import TransactionCase
+from odoo.addons.account.tests.account_test_classes import AccountingTestCase
 
 
-class TestInvoiceStartEndDates(TransactionCase):
+class TestInvoiceStartEndDates(AccountingTestCase):
 
     def setUp(self):
         super(TestInvoiceStartEndDates, self).setUp()
